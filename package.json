@@ -1,0 +1,26 @@
+{
+  "name": "lesson_1",
+  "version": "1.0.0",
+  "description": "lesson git and github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad130694/MyHomeProjekt.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vlad130694/MyHomeProjekt/issues"
+  },
+  "homepage": "https://github.com/Vlad130694/MyHomeProjekt#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "mmenu-js": "^9.2.0"
+  }
+}
