@@ -70,26 +70,10 @@ if (youAreRetired <= 65) {
   youAreRetired = "да";
 }
 
-alert(
-  "Ваше ФИО: " +
-    surname +
-    " " +
-    name +
-    " " +
-    middleName +
-    "\n" +
-    "Ваш возраст в годах: " +
-    age +
-    "\n" +
-    "Ваш возраст в днях: " +
-    ageInDays +
-    "\n" +
-    "Через 5 лет вам будет: " +
-    ageInFiveYears +
-    "\n" +
-    "Ваш пол: " +
-    gender +
-    "\n" +
-    "Вы на пенсии: " +
-    youAreRetired
-);
+alert(`
+Ваше ФИО: ${surname} ${name} ${middleName} 
+Ваш возраст в годах: ${age} 
+Ваш возраст в днях: ${ageInDays} 
+Через 5 лет вам будет: ${ageInFiveYears}  
+Ваш пол: ${gender}  
+Вы на пенсии: ${youAreRetired}`);
