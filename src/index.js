@@ -32,7 +32,7 @@ do {
 */
 
 //Домашнее задание
-let surname;
+/*let surname;
 do {
   surname = prompt("Ваша фамилия?", "");
 } while (surname == "" || surname == undefined);
@@ -77,3 +77,13 @@ alert(`
 Через 5 лет вам будет: ${ageInFiveYears}  
 Ваш пол: ${gender}  
 Вы на пенсии: ${youAreRetired}`);
+*/
+
+//N.05 Домашнее задание TREESUM
+
+const num = [5, 7, [4, [2], 8, [1, 3], 2], [9, []], 1, 8];
+
+const treeSum = (num) =>
+  num.reduce((a, b) => a + (Array.isArray(b) ? treeSum(b) : b), 0);
+
+console.log(treeSum(num));
