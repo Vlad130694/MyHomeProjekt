@@ -1,2 +1,1 @@
-# MyHomeProjekt
-My home projekt it-academy
+# mentoring-simple-webpack-starter
